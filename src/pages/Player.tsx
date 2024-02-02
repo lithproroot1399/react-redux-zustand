@@ -5,6 +5,7 @@ import { Module } from '../components/Module'
 import { useAppSelector } from '../store'
 import { useCurrentLesson } from '../store/slices/player'
 import { useEffect } from 'react'
+import { api } from '../lib/axios'
 
 export function Player() {
     const modules = useAppSelector(state => {
@@ -12,6 +13,11 @@ export function Player() {
     })
 
         const { currentLesson } = useCurrentLesson()
+        useEffect(() =>{
+            api.get('')
+        }, [])
+
+
 
         useEffect(() => {
             document.title = `Assistindo: ${currentLesson.title}` 
