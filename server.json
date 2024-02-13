@@ -1,5 +1,7 @@
 {
-    "courses": {
+    "courses": [
+        {
+            "id": 1,
         "modules": [
                 {
                   "id": 1,
@@ -23,6 +25,6 @@
                     { "id": "1G0vSTqWELg", "title": "Utilizando estado", "duration": "09:12" }
                   ]
                 }
-            ]        
+            ]
         }
-    }
+        ]    }
