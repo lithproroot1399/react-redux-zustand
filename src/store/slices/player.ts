@@ -67,7 +67,7 @@ export const playerSlice = createSlice({
       },
     },
     extraReducers(builder) {
-      builder.addCase(loadCourse.fulfilled, (state) => {
+      builder.addCase(loadCourse.pending, (state) => {
         state.isLoading = true
       })
 

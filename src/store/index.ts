@@ -1,5 +1,5 @@
 import { configureStore } from '@reduxjs/toolkit'
-import { useSelector, TypedUseSelectorHook, useAppDispatch, useDispatch} from 'react-redux'
+import { useSelector, TypedUseSelectorHook, useDispatch} from 'react-redux'
 import { player } from './slices/player'
 
 export const store = configureStore({
