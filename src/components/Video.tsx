@@ -28,6 +28,9 @@ export function Video() {
                 controls
                 playing
                 onEnded={handlePlayNext}
+                
+                /*url={'https://plataformaead.unigran.br/?pgn=videos&id=1${currentLesson?.id'}*/
+
                 url={`https://www.youtube.com/watch?v=${currentLesson?.id}`} 
             />                    
             )}                
