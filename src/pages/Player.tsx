@@ -55,10 +55,8 @@ export function Player() {
                     </aside>
                 </main>     
             </div>
-            <div>
-        <footer className='relative isolate flex items-center text-green-500'>Proroot @2024 </footer>
+
         </div>
-        </div>
-        
+                
     )
 }
