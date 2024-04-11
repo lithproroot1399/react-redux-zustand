@@ -1,19 +1,17 @@
 import './styles/global.css'
+
+import { Video } from './components/Video';
 import { Shopify } from './components/Shopify';
-import { Player } from './pages/Player';
-import { Footer } from './components/Footer';
-import { Login } from './components/Login';
+import { Teste } from './components/Teste';
 
 export function App() {
   return (    
     <>
-
-    
-      <Shopify />
-      <Player />
-          
+    <Shopify />
+    <Teste />
+    <Video />   
     </>
-  ) 
+    ) 
 }
 
 
