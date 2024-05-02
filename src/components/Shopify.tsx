@@ -27,7 +27,7 @@ export function Shopify() {
             <a href="/pages/Player" className="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Videos</a>
             <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Projetos</a>
             <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Portifolio</a>
-            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Calendario</a>
+            <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Bank</a>
           </div>
         </div>
       </div>
