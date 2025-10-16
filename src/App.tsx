@@ -8,8 +8,7 @@ import { Player } from './pages/Player';
 export function App() {
   return (    
     <>
-    <Shopify />
-    <Signin />
+    
     <Player />
     <Footer />
     </>
